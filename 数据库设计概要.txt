@@ -1,0 +1,24 @@
+订餐(mobile): 人数 菜品(菜名 单价 数量) crud 买家
+菜品(mobile&&web): 菜名 主要原料 单价 会员折扣(百分比)
+销售统计(web): 菜名 单价 数量 金额 买家  售出时间  日营业金额
+结算(mobile): 单价*数量*会员折扣
+采购: 原材料(名称 数量 价格) => 得出原材料成本
+用户: crud 
+员工: crud 密码 权限分配
+管理员: 对员工 crud 密码 权限分配
+
+
+
+人员表:
+  用户: name nickName pwd tel isVip
+  员工: name pwd auth:normal
+  管理员: name pwd auth:manager
+
+
+订单表: 添加 修改 查询 删除 订单完成状态(由员工确认 成功则生成新订单 失败则添加note字段(订单取消原因)
+  userId(买家id) userName(买家姓名) nickName(买家昵称) tel(买家电话) isDone(订单是否完成) operateTime(操作时间) isVip(是否会员)  numbers(人数) orderTime(预定时间/售出时间) dishs(已订菜品信息)  cost(单笔交易金额) 
+商品列表: 添加 修改 查询 删除
+  dishName(菜名) materials(原材料 Array) price(单价) discount(会员折扣 %) 
+账单表: 查询
+   userId(买家id) userName(买家姓名) nickName(买家昵称) tel(买家电话) isVip(是否会员)  numbers(人数) operateTime(操作时间) orderTime(预定时间/售出时间) dishs(已售菜品信息)  cost(单笔交易金额) 
+  

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <style>
+      body,
+        p,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        ul,
+        ol,
+        dl,
+        li,
+        dt,
+        dd {
+            /* 默认有边距，都要清除 */
+            margin: 0;
+            padding: 0;
+            /*字体设置*/
+            font-size: 14px;
+            font-family: "Microsoft Yahei", sans-serif;
+            color: #222;
+            /* 去掉列表的原点 */
+            list-style: none;
+            /* 默认鼠标 */
+            cursor: default;
+        }
+        /*行内块元素*/
+        
+        input,
+        img {
+            margin: 0;
+            padding: 0;
+            border: 0 none;
+            outline-style: none;
+            vertical-align: bottom;
+        }
+        /*行内元素*/
+        
+        a,
+        a:active,
+        a:visited {
+            /*下划线和颜色*/
+            text-decoration: none;
+            color: #222;
+        }
+        
+        textarea {
+            /* 边框清零 */
+            border: none;
+            /* 轮廓线清零 */
+            outline: none;
+            /* 防止文本域被随意拖拽 */
+            resize: none;
+        }
+        
+        i {
+            /*文字样式*/
+            font-style: normal;
+        }
+        
+        table {
+            /*边框合并*/
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+        .el-picker-panel__footer{
+          display: none !important;
+        }
+    
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

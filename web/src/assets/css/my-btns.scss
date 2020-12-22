@@ -1,0 +1,92 @@
+$baseColor: #efefef;
+$hoverColor: #fff;
+/deep/.my-btn{
+  padding: 5px 10px !important;
+  color: $baseColor !important;
+  background-color: rgb(71, 204, 78);
+}
+
+/deep/.edit{
+  background-color: rgb(131, 175, 155) !important;
+  padding: 5px 10px;
+}
+/deep/.edit:hover{
+  background-color: rgb(131, 175, 155) !important;
+  padding: 5px 10px;
+  color: $hoverColor !important;
+}
+/deep/.nav{
+  color: rgb(255, 208, 75) !important;
+  background-color: rgb(84, 92, 100) !important;
+  padding: 5px 10px;
+}
+/deep/.nav:hover{
+  background-color: rgb(48, 47, 46) !important;
+  padding: 5px 10px;
+}
+
+
+/deep/.base{
+  background-color: rgb(222, 156, 83) !important;
+  padding: 5px 10px;
+}
+/deep/.base:hover{
+  background-color: rgb(222, 156, 83) !important;
+  padding: 5px 10px;
+  color: $hoverColor !important;
+}
+/deep/.search{
+  background-color: rgb(143, 207, 135) !important;
+  padding: 5px 10px;
+}
+/deep/.search:hover{
+  background-color: rgb(131, 223, 112) !important;
+  padding: 5px 10px;
+  color: $hoverColor !important;
+}
+
+// delete btn
+/deep/.delete{
+  background-color: rgb(254, 67, 80) !important;
+  padding: 5px 10px;
+}
+/deep/.delete:hover{
+  background-color: rgb(254, 67, 80) !important;
+  padding: 5px 10px;
+  color: $hoverColor !important;
+}
+
+// detail btn
+/deep/.detail{
+  background-color: rgb(137, 190, 108) !important;
+  padding: 5px 10px;
+}
+/deep/.detail:hover{
+  background-color: rgb(137, 190, 108) !important;
+  padding: 5px 10px;
+  color: $hoverColor !important;
+}
+
+// freeze btn
+/deep/.freeze{
+  background-color: rgb(178, 200, 180) !important;
+  padding: 5px 10px;
+}
+/deep/.un-freeze{
+  background-color: rgb(114, 114, 80) !important;
+  padding: 5px 10px;
+}
+/deep/.un-freeze:hover{
+  background-color: rgb(94, 95, 51) !important;
+  padding: 5px 10px;
+}
+/deep/.freeze:hover{
+  background-color: rgb(133, 184, 137) !important;
+  padding: 5px 10px;
+  color: $hoverColor !important;
+}
+
+
+
+
+

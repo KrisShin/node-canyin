@@ -1,0 +1,25 @@
+系统分为三个部分
+ 1.移动端 
+ 2.web端
+     安装依赖: yarn
+    启动: yarn serve (开发环境)
+             yarn build 打包后 进入打开dist文件下的index.html(生产环境)
+
+ 3.服务端
+    启动: node my_server/index.js
+
+
+初始登录数据: 
+  移动端: jack  123
+  web: xiaowang 123
+
+
+使用步骤:
+ 启动mongo 
+     mongod --dbpath +mongo安装路径
+ 恢复备份的数据库
+    mongorestore -h 127.0.0.1:27017 -d restaurant 数据备份路径
+ 启动服务端
+ 启动web和mobile端
+  
+  
